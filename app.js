@@ -118,7 +118,7 @@ function mainchange() {
   j = (j + 1) % txtColor.length;
 }
 
-setInterval(mainchange, 1050);
+setInterval(mainchange, 255);
 
 function bodyChangeColor() {
   let bodyTag = document.getElementById(`body`);
